@@ -8,6 +8,9 @@ public class Main {
 
         System.out.println(aDouble.asJsonString());
 
-        System.out.println(new MyStringContainer("abc") + new MyStringContainer("cb"));
+        MyStringContainer c0 = new MyStringContainer("abc");
+        MyStringContainer c1 = new MyStringContainer("cb");
+
+        System.out.println(c0 + c1);
     }
 }

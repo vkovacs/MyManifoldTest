@@ -1,7 +1,5 @@
 package org.example;
 
-import manifold.ext.rt.api.This;
-
 public class MyStringContainer {
     String payload;
 
