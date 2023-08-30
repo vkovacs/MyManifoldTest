@@ -7,5 +7,7 @@ public class Main {
         var aDouble = Double.valueOf(1.2d);
 
         System.out.println(aDouble.asJsonString());
+
+        System.out.println(new MyStringContainer("abc") + new MyStringContainer("cb"));
     }
 }
